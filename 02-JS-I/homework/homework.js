@@ -28,7 +28,7 @@ const nuevoModulo = 21 % 5 === 1;
 function devolverString(str) {
   // "Return" la string provista: str
   // Tu código:
-  return str
+  return str;
   
 }
 
@@ -99,10 +99,10 @@ function mayorQueCincuenta(num) {
   // De lo contrario, devuelve "false"
   // Tu código:
   if (num > 50){
-    return true
+    return true;
   }
   else {
-    return false
+    return false;
   }
 }
 
@@ -117,10 +117,10 @@ function esPar(num) {
   // De lo contrario, devuelve "false"
   // Tu código:
   if ( num %2 === 0) {
-    return true
+    return true;
   }
   else {
-    return false
+    return false;
   }
 }
 
@@ -129,10 +129,10 @@ function esImpar(num) {
   // De lo contrario, devuelve "false"
   // Tu código:
   if ( num %3 === 1) {
-    return true
+    return true;
   }
   else {
-    return false
+    return false;
   }
 }
 
@@ -180,13 +180,13 @@ function esPositivo(numero) {
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
   if (numero > 0) {
-    return "Es positivo"
+    return "Es positivo";
   }
   if (numero < 0) {
-    return "Es negativo"
+    return "Es negativo";
   }
   else (numero === 0); {
-    return false
+    return false;
   }
   
 }
@@ -219,7 +219,6 @@ function obtenerAreaRectangulo(alto, ancho) {
   
 }
 
-
 function retornarPerimetro(lado){
   //Escibe una función a la cual reciba el valor del lado de un cuadrado y retorne su perímetro.
   //Escribe tu código aquí
@@ -227,13 +226,11 @@ function retornarPerimetro(lado){
   
 }
 
-
 function areaDelTriangulo(base, altura){
   //Desarrolle una función que calcule el área de un triángulo.
   //Escribe tu código aquí
   return base * altura / 2;
 }
-
 
 function deEuroAdolar(euro){
   //Supongamos que 1 euro equivale a 1.20 dólares. Escribe un programa que reciba
@@ -242,7 +239,6 @@ function deEuroAdolar(euro){
   return euro * 1.20;
   
 }
-
 
 function esVocal(letra){
   //Escribe una función que reciba una letra y, si es una vocal, muestre el mensaje “Es vocal”. 
